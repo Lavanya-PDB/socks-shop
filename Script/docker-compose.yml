@@ -1,0 +1,7 @@
+version: '3'
+services:
+  socks-shop-testing:
+    container_name: socks-shop-testing
+    build: 
+      context: ./
+      dockerfile: DockerFile
